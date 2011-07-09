@@ -1,0 +1,21 @@
+Source: abntex
+Section: editors
+Priority: extra
+Maintainer: Marcos Talau <talau@users.sourceforge.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://abntex.codigolivre.org.br
+Vcs-Git: git@github.com:talau/abntex-debian.git
+Vcs-Browser: https://talau@github.com/talau/abntex-debian.git
+
+Package: abntex
+Architecture: all
+Depends: ${misc:Depends}, texlive-common (>= 2009-1), texlive-latex-base (>= 2009-1)
+Description: macros para LaTeX que implementam normas da ABNT
+ As macros abnTeX possibilitam escrever documentos latex
+ em conformidade com as diversas normas da ABNT (Associação
+ Brasileira de Normas Técnicas). Além disso estão incluídas
+ macros para a confeção automatizada de listas de abreviaturas
+ e símbolos e um estilo para escrever requerimentos de patentes
+ para o INPI.
+ (este pacote não é oficial do Debian)
