@@ -1,3 +1,9 @@
+abntex (0.9-beta2-2) unstable; urgency=medium
+
+  * Depends updated
+
+ -- Marcos Talau <talau@users.sourceforge.net>  Thu, 11 May 2017 12:30:03 -0300
+
 abntex (0.9-beta2-1) unstable; urgency=low
 
   * Initial release
